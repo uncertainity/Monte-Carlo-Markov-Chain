@@ -1,1 +1,5 @@
 # Monte-Carlo-Markov-Chain
+In statistics, Markov chain Monte Carlo (MCMC) methods comprise a class of algorithms for sampling from a probability distribution. By constructing a Markov chain that has the desired distribution as its equilibrium distribution, one can obtain a sample of the desired distribution by recording states from the chain. The more steps are included, the more closely the distribution of the sample matches the actual desired distribution. Various algorithms exist for constructing chains, including the Metropolis–Hastings algorithm.
+MCMC can be used to estimate the model parameters using likelihood function as the function which is proportional to the bayesian posterior distribution.
+Here, MCMC is used to solve a simple logistic equation. However, we can get parameter estimate from likelihood using the MCMC even when the normal equations of the likelihood function is too hard to solve analytically.
+For more theoretical background on the MCMC, one can check out https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm
